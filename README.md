@@ -1,2 +1,3 @@
-# sea-salt
-a collection of poems
+# sea/salt
+
+ten poems on wanting to be home
