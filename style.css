@@ -45,19 +45,17 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-size: clamp(16px, 3vw, 24px);
   background-color: #fbfbfe;
-  /* color: #212529; */
   color: #221b1b;
 }
 
-.container {
-  width: 100%;
+.main-home-container {
+  width: 80%;
   margin: auto;
   position: relative;
 }
 
 img {
   width: 100%;
-  margin: auto;
 }
 
 .top-left {
@@ -71,6 +69,15 @@ img {
   top: 1rem;
   right: 1rem;
 }
+
+/* .home-title-author-container {
+  position: absolute;
+  top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 1rem;
+} */
 
 li {
   list-style: none;
@@ -94,4 +101,10 @@ a:active {
   background-color: white;
   padding: 3px;
   border-radius: 5px;
+}
+
+/* TOC page */
+.toc-container {
+  width: 80%;
+  margin: 1rem auto;
 }
