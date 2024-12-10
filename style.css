@@ -42,7 +42,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Custom styles */
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  bottom: 0;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
 
+.cover_img {
+  width: 100%;
+  margin: auto;
+}
 
 
 
