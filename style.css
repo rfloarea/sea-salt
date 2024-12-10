@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Custom styles */
 
 body {
-  font-size: clamp(16px, 3vw, 24px);
+  font-size: clamp(1rem, 0.8696rem + 0.6522vw, 1.375rem);
 }
 
 .footer_container {
