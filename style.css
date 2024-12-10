@@ -42,6 +42,29 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Custom styles */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 body {
   font-size: clamp(16px, 3vw, 24px);
   background-color: #fbfbfe;
@@ -79,6 +102,7 @@ img {
   margin: 0 1rem;
 } */
 
+/*
 li {
   list-style: none;
 }
@@ -104,7 +128,10 @@ a:active {
 }
 
 /* TOC page */
+
+/*
 .toc-container {
   width: 80%;
   margin: 1rem auto;
-}
+} 
+*/
