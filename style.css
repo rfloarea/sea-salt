@@ -57,7 +57,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
+.toc {
+  width: 80%;
+  margin: 2rem auto;
+}
 
+.toc_item {
+  line-height: 2rem;
+}
 
 
 
@@ -84,36 +91,6 @@ body {
   color: #221b1b;
 }
 
-.main-home-container {
-  width: 80%;
-  margin: auto;
-  position: relative;
-}
-
-img {
-  width: 100%;
-}
-
-.top-left {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-}
-
-.top-right {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-}
-
-/* .home-title-author-container {
-  position: absolute;
-  top: 1rem;
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 1rem;
-} */
 
 /*
 li {
