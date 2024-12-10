@@ -42,11 +42,19 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Custom styles */
 
-.header {
-  display: flex;
-  justify-content: space-between;
+body {
+  font-size: clamp(16px, 3vw, 24px);
+}
+
+.footer_container {
+  background-color: white;
   position: sticky;
   bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
   width: 80%;
   margin: auto;
   padding: 1rem;
@@ -76,62 +84,18 @@ h1, h2, h3, h4, h5, h6 {
   margin: 2rem auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-body {
-  font-size: clamp(16px, 3vw, 24px);
-  background-color: #fbfbfe;
-  color: #221b1b;
-}
-
-
-/*
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 a:visited {
   color: black;
 }
 
 a:hover {
   background-color: rgb(20, 184, 20, 0.5);
-  padding: 3px;
+  padding: 5px;
   border-radius: 5px;
 }
 
 a:active {
-  background-color: white;
-  padding: 3px;
+  background-color: rgb(20, 184, 20, 0.9);
+  padding: 5px;
   border-radius: 5px;
 }
-
-/* TOC page */
-
-/*
-.toc-container {
-  width: 80%;
-  margin: 1rem auto;
-} 
-*/
